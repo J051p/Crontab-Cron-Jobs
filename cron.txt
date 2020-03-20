@@ -1,0 +1,10 @@
+# This file contains few command as example of creating cron job.
+# This cron job is written in basic text editor then imported in crontab, you can also write directly into crontab.
+# Down below listed command will be executed every day of the week from Monday through Friday.
+# Loading a file -> crontab /home/josip/Desktop/cron.txt after that type crontab -e to check if yur file is indeed imported.
+
+0 0 * * 1-5 sudo apt update
+0 0 * * 1-5 sudo apt upgrade
+0 0 * * 1-5 sudo apt dist-upgrade
+0 0 * * 1-5 sudo apt autoremove
+0 0 * * 1-5 sudo apt autoclean
