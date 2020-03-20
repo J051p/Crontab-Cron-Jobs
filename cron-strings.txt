@@ -1,0 +1,6 @@
+#You can also use strings to define jobs. All strings can be found on link (the same link for picture).
+#For example this cron job will be executed once a month (for cleaning cache and logs).
+
+@monthly sudo apt-get autoclean
+@monthly sudo apt-get clean
+@monthly sudo journalctl --vacuum-time=3d
