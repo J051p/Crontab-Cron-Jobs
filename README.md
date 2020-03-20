@@ -2,8 +2,6 @@
 
 The software utility cron is a time-based job scheduler in Unix-like computer operating systems. It typically automates system maintenance or administration.
 
-Txt.files for cron jobs.
-
 Cron.txt -> description is inside the file.
 
 cron-job-format-1.png -> original link where photo is from -> https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/
